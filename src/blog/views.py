@@ -71,3 +71,5 @@ def article_list_view(request):
         'object_list': queryset
     }
     return render(request, "article_list.html", context)
+
+#This a Comment to test Git
