@@ -9,3 +9,4 @@ class Article(models.Model):
 
     def get_absolute_url(self):
         return reverse("blog:article-detail", kwargs={"id": self.id})
+#Change in Master Branch
